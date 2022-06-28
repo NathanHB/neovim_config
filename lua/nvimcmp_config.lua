@@ -43,3 +43,4 @@ cmp.setup.filetype('gitcommit', {
         { name = 'buffer' },
     })
 })
+

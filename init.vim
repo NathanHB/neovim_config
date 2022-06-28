@@ -15,6 +15,7 @@ Plug 'tpope/vim-eunuch'               " Vim sugar for the UNIX shell commands th
 
 Plug 'drewtempelmeyer/palenight.vim'  " Theme
 Plug 'morhetz/gruvbox'                " Theme
+Plug 'jacoborus/tender.vim'           " Theme
 Plug 'vim-airline/vim-airline'        " The bar at the bottom of screen
 
 Plug 'SirVer/ultisnips'               " Snippet engine
@@ -62,8 +63,8 @@ set autoindent
 
                            " ===== COLORSCHEME =====
 "
-colorscheme gruvbox
-let g:airline_theme = "gruvbox"
+colorscheme tender
+let g:airline_theme = "tender"
 highlight Comment cterm=italic gui=italic
 set termguicolors
 
