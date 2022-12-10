@@ -35,6 +35,11 @@ require("lspconfig")['ltex'].setup {
     on_attach = on_attach,
 }
 
+require("lspconfig")['rust_analyzer'].setup {
+    capabilities = capabilities,
+    on_attach = on_attach,
+}
+
 require("lspconfig")['jdtls'].setup {
     capabilities = capabilities,
     on_attach = on_attach,
@@ -51,6 +56,11 @@ require('lspconfig')['metals'].setup {
 }
 
 require('lspconfig')['texlab'].setup {
+    capabilities = capabilities,
+    on_attach = on_attach,
+}
+
+require('lspconfig')['ccls'].setup {
     capabilities = capabilities,
     on_attach = on_attach,
 }
